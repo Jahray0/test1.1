@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Contenu from "./Contenu";
+//import Card from "../Card/Card";
 
 export default function AxiosRequest() {
   //stocker la data de l'api dans un state
