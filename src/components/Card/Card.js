@@ -26,3 +26,26 @@ function Card() {
 }
 
 export default Card;
+
+//import React from "react";
+
+//const Card = ({ logement }) => {
+//  console.log(logement);
+//  return (
+//    <div>
+//      <ul>
+//        <li>Contenu de logement : </li>
+//        <li>L'id : {logement.id}</li>
+//        <li>Le titre : {logement.title}</li>
+//        <li>Description : {logement.description}</li>
+//        <li>
+//          cover : <img src={logement.cover} alt="coucou"></img>
+//        </li>
+//        <li>
+//          ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//        </li>
+//      </ul>
+//    </div>
+//  );
+//};
+//export default Card;
