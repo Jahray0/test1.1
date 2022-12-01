@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Contenu from "./Contenu";
+import styles from "./Contenu.module.scss";
 //import Card from "../Card/Card";
 
 export default function AxiosRequest() {
@@ -21,11 +22,11 @@ export default function AxiosRequest() {
   }, []);
 
   return (
-    <>
-      <div>axios</div>
+    <div className={styles.mainVignette}>
       {data.map((logement) => (
         <Contenu key={logement.id} logement={logement} />
+        //<Card key={logement.id} logement={logement} />
       ))}
-    </>
+    </div>
   );
 }

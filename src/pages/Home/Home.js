@@ -12,7 +12,7 @@ function Home() {
   return (
     <div className={styles.main}>
       <Banner />
-      <Card />
+
       <AxiosRequest />
     </div>
   );

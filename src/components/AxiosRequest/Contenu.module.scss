@@ -1,0 +1,35 @@
+.mainVignette {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-wrap: wrap;
+
+  .cardBody {
+    color: red;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(233, 130, 161);
+  }
+
+  .cardTitle {
+    position: relative;
+    width: 50%;
+    color: red;
+    font-weight: 700;
+  }
+
+  .cardImg {
+    width: 100%;
+
+    border-radius: 20px;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}
